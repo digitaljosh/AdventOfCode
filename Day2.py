@@ -12,6 +12,7 @@ for row in read:
     difference = max(list)-min(list);
     checksum+=difference;
         
+
 print(checksum);
 
         
