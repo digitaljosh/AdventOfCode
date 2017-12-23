@@ -15,4 +15,17 @@ Day 2:
     Part 1:
 
     Calculate the spreadsheet's checksum. For each row, determine the difference between the largest value and the smallest value; the checksum is the sum of all of these differences.
+    
+
+Day 3:
+
+    Part 1:
+    
+    For each row in the spreadsheet, determine the difference between the largest value and the smallest value then calcualte the checksum.
+    
+    Part 2:
+    
+    Find the only two numbers in each row where one evenly divides the other - that is, where the result of the division operation is a whole number. Find those numbers on each line, divide them, and add up each line's result and return the sum.
+    
+    
 
