@@ -27,7 +27,7 @@ def steps_to_center(input):
         result = x_value + y_value;
         print(result);
         
-    elif input < num_top_right and input > num_top_right - 538:
+    elif input < num_top_right and input > num_top_right - math.sqrt(input)-1:
         center_num = num_top_right - y_value;
         x_value = input - center_num;
         result = x_value + y_value;
