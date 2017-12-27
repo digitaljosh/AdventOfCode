@@ -24,13 +24,9 @@ for row in read:
                     matches = True;
                     break;
     
-    if i == row-2:
-        if matches == False:
+    if matches == False:
             num_valid_rows+=1;
             row=0;
                 
-
-
-
 
 print(num_valid_rows);
