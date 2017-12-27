@@ -6,6 +6,7 @@ checksum = 0;
 for row in read:
     row = map(int, row);
     row = sorted(row);
+    print(row);
     for cell_a in row:
         for cell_b in row:
             if cell_b == cell_a:
