@@ -6,6 +6,7 @@ Day 1:
 
     Find the sum of all digits that match the next digit in the list. The list is circular, so the digit after the last digit is the first digit in the list.
 
+
     Part 2:
 
     Instead of considering the next digit, consider the digit halfway around the circular list. That is, if your list contains 10 items, only include a digit in your sum if the digit 10/2 = 5 steps forward matches it.
@@ -15,6 +16,7 @@ Day 2:
     Part 1:
 
     Calculate the spreadsheet's checksum. For each row, determine the difference between the largest value and the smallest value then calculate the checksum.
+    
     
     Part 2:
     
@@ -38,6 +40,23 @@ Day 3:
     How many steps are required to carry the data from the square identified in your puzzle input all the way to the access port?
 
     Your puzzle input is 289326.
+    
+    
+    Part 2:
+    
+    Once a square is written, its value does not change. Therefore, the first few squares would receive the following values:
+
+    147  142  133  122   59
+    304    5    4    2   57
+    330   10    1    1   54
+    351   11   23   25   26
+    362  747  806--->   ...
+    
+    What is the first value written that is larger than your puzzle input?
+
+    Your puzzle input was 289326.
+    
+    
     
     
     
